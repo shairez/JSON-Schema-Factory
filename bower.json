@@ -1,0 +1,24 @@
+{
+  "name": "JSON Schema Factory",
+  "version": "0.0.1",
+  "dependencies": {},
+  "devDependencies": {
+    "jasmine-given": "~2.5.0",
+    "lodash": "~2.4.1"
+  },
+  "authors": [
+    "Shai Reznik <shai.reznik@gmail.com>"
+  ],
+  "description": "Angular Auth Management",
+  "keywords": [
+    "JSON Schema"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/shairez/JSON-Schema-Factory",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "coverage"
+  ]
+}
