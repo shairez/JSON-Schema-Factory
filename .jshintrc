@@ -1,0 +1,41 @@
+{
+    "asi": true, // Tolerate Automatic Semicolon Insertion (no semicolons).
+    "lastsemic": false,
+    "node": true, // Enable globals available when code is running inside of the NodeJS runtime environment.
+    "browser": true, // Standard browser globals e.g. `window`, `document`.
+    "esnext": true, // Allow ES.next specific features such as `const` and `let`.
+    "bitwise": true, // Prohibit bitwise operators (&, |, ^, etc.).
+    "camelcase": true, // Tolerat missing semicolons when the it is omitted for the last statement in a one-line block.
+    "curly": true, // Require {} for every new block or scope.
+    "eqeqeq": true,  // Require triple equals i.e. `===`.
+    "immed": true, // Require immediate invocations to be wrapped in parens e.g. `( function(){}() );`
+    "indent": 2, // Specify indentation spacing
+    "latedef": true, // Prohibit variable use before definition.
+    "newcap": false, // Require capitalization of all constructor functions e.g. `new F()`.
+    "noarg": true, // Prohibit use of `arguments.caller` and `arguments.callee`.
+    "quotmark": false,
+    "regexp": true, // Prohibit `.` and `[^...]` in regular expressions.
+    "undef": true, // Require all non-global variables be declared before they are used.
+    "unused": false,
+    "strict": false, // Require `use strict` pragma in every file.
+    "globalstrict": true,
+    "trailing": true, // Prohibit trailing whitespaces.
+    "smarttabs": true,  // Tolerate mixed tabs and spaces when the latter are used for alignmnent only.
+    "globals": {
+        "_": false,
+        "jsonSchemaFactory": false,
+        "module": false,
+        "expect": false,
+        "jasmine": false,
+        "Firebase": false,
+        "describe": false,
+        "it": false,
+        "before": false,
+        "beforeEach": false,
+        "after": false,
+        "afterEach": false,
+        "Given": false,
+        "When": false,
+        "Then": false
+    }
+}
