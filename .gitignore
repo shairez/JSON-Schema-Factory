@@ -5,3 +5,4 @@ bower_components
 *.sublime-*
 .idea
 coverage
+npm-debug.log
